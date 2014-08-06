@@ -12,6 +12,9 @@
 		B298D8F41991FDB0004FBF69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B298D8F21991FDB0004FBF69 /* Main.storyboard */; };
 		B298D8F61991FDB1004FBF69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B298D8F51991FDB0004FBF69 /* Images.xcassets */; };
 		B298D9021991FDB1004FBF69 /* PocketMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298D9011991FDB1004FBF69 /* PocketMusicTests.swift */; };
+		B298D90C19920446004FBF69 /* ChannelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298D90B19920446004FBF69 /* ChannelTableViewController.swift */; };
+		B298D90E199204A7004FBF69 /* PlaylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298D90D199204A7004FBF69 /* PlaylistTableViewController.swift */; };
+		B298D910199204D5004FBF69 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298D90F199204D5004FBF69 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 		B298D8FB1991FDB1004FBF69 /* PocketMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B298D9001991FDB1004FBF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B298D9011991FDB1004FBF69 /* PocketMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketMusicTests.swift; sourceTree = "<group>"; };
+		B298D90B19920446004FBF69 /* ChannelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelTableViewController.swift; sourceTree = "<group>"; };
+		B298D90D199204A7004FBF69 /* PlaylistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewController.swift; sourceTree = "<group>"; };
+		B298D90F199204D5004FBF69 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 			children = (
 				B298D8EE1991FDB0004FBF69 /* AppDelegate.swift */,
 				B298D8F01991FDB0004FBF69 /* ViewController.swift */,
+				B298D90B19920446004FBF69 /* ChannelTableViewController.swift */,
+				B298D90D199204A7004FBF69 /* PlaylistTableViewController.swift */,
+				B298D90F199204D5004FBF69 /* SettingViewController.swift */,
 				B298D8F21991FDB0004FBF69 /* Main.storyboard */,
 				B298D8F51991FDB0004FBF69 /* Images.xcassets */,
 				B298D8EC1991FDB0004FBF69 /* Supporting Files */,
@@ -208,8 +217,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B298D910199204D5004FBF69 /* SettingViewController.swift in Sources */,
 				B298D8F11991FDB0004FBF69 /* ViewController.swift in Sources */,
 				B298D8EF1991FDB0004FBF69 /* AppDelegate.swift in Sources */,
+				B298D90C19920446004FBF69 /* ChannelTableViewController.swift in Sources */,
+				B298D90E199204A7004FBF69 /* PlaylistTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
