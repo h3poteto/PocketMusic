@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B298D8EF1991FDB0004FBF69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298D8EE1991FDB0004FBF69 /* AppDelegate.swift */; };
+		B298D8F11991FDB0004FBF69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298D8F01991FDB0004FBF69 /* ViewController.swift */; };
+		B298D8F41991FDB0004FBF69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B298D8F21991FDB0004FBF69 /* Main.storyboard */; };
+		B298D8F61991FDB1004FBF69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B298D8F51991FDB0004FBF69 /* Images.xcassets */; };
+		B298D9021991FDB1004FBF69 /* PocketMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298D9011991FDB1004FBF69 /* PocketMusicTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B298D8FC1991FDB1004FBF69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B298D8E11991FDB0004FBF69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B298D8E81991FDB0004FBF69;
+			remoteInfo = PocketMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B298D8E91991FDB0004FBF69 /* PocketMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B298D8ED1991FDB0004FBF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B298D8EE1991FDB0004FBF69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B298D8F01991FDB0004FBF69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B298D8F31991FDB0004FBF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B298D8F51991FDB0004FBF69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B298D8FB1991FDB1004FBF69 /* PocketMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B298D9001991FDB1004FBF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B298D9011991FDB1004FBF69 /* PocketMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketMusicTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B298D8E61991FDB0004FBF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B298D8F81991FDB1004FBF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B298D8E01991FDB0004FBF69 = {
+			isa = PBXGroup;
+			children = (
+				B298D8EB1991FDB0004FBF69 /* PocketMusic */,
+				B298D8FE1991FDB1004FBF69 /* PocketMusicTests */,
+				B298D8EA1991FDB0004FBF69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B298D8EA1991FDB0004FBF69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B298D8E91991FDB0004FBF69 /* PocketMusic.app */,
+				B298D8FB1991FDB1004FBF69 /* PocketMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B298D8EB1991FDB0004FBF69 /* PocketMusic */ = {
+			isa = PBXGroup;
+			children = (
+				B298D8EE1991FDB0004FBF69 /* AppDelegate.swift */,
+				B298D8F01991FDB0004FBF69 /* ViewController.swift */,
+				B298D8F21991FDB0004FBF69 /* Main.storyboard */,
+				B298D8F51991FDB0004FBF69 /* Images.xcassets */,
+				B298D8EC1991FDB0004FBF69 /* Supporting Files */,
+			);
+			path = PocketMusic;
+			sourceTree = "<group>";
+		};
+		B298D8EC1991FDB0004FBF69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B298D8ED1991FDB0004FBF69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B298D8FE1991FDB1004FBF69 /* PocketMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				B298D9011991FDB1004FBF69 /* PocketMusicTests.swift */,
+				B298D8FF1991FDB1004FBF69 /* Supporting Files */,
+			);
+			path = PocketMusicTests;
+			sourceTree = "<group>";
+		};
+		B298D8FF1991FDB1004FBF69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B298D9001991FDB1004FBF69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B298D8E81991FDB0004FBF69 /* PocketMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B298D9051991FDB1004FBF69 /* Build configuration list for PBXNativeTarget "PocketMusic" */;
+			buildPhases = (
+				B298D8E51991FDB0004FBF69 /* Sources */,
+				B298D8E61991FDB0004FBF69 /* Frameworks */,
+				B298D8E71991FDB0004FBF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketMusic;
+			productName = PocketMusic;
+			productReference = B298D8E91991FDB0004FBF69 /* PocketMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B298D8FA1991FDB1004FBF69 /* PocketMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B298D9081991FDB1004FBF69 /* Build configuration list for PBXNativeTarget "PocketMusicTests" */;
+			buildPhases = (
+				B298D8F71991FDB1004FBF69 /* Sources */,
+				B298D8F81991FDB1004FBF69 /* Frameworks */,
+				B298D8F91991FDB1004FBF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B298D8FD1991FDB1004FBF69 /* PBXTargetDependency */,
+			);
+			name = PocketMusicTests;
+			productName = PocketMusicTests;
+			productReference = B298D8FB1991FDB1004FBF69 /* PocketMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B298D8E11991FDB0004FBF69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = interfirm;
+				TargetAttributes = {
+					B298D8E81991FDB0004FBF69 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B298D8FA1991FDB1004FBF69 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B298D8E81991FDB0004FBF69;
+					};
+				};
+			};
+			buildConfigurationList = B298D8E41991FDB0004FBF69 /* Build configuration list for PBXProject "PocketMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B298D8E01991FDB0004FBF69;
+			productRefGroup = B298D8EA1991FDB0004FBF69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B298D8E81991FDB0004FBF69 /* PocketMusic */,
+				B298D8FA1991FDB1004FBF69 /* PocketMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B298D8E71991FDB0004FBF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B298D8F41991FDB0004FBF69 /* Main.storyboard in Resources */,
+				B298D8F61991FDB1004FBF69 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B298D8F91991FDB1004FBF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B298D8E51991FDB0004FBF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B298D8F11991FDB0004FBF69 /* ViewController.swift in Sources */,
+				B298D8EF1991FDB0004FBF69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B298D8F71991FDB1004FBF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B298D9021991FDB1004FBF69 /* PocketMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B298D8FD1991FDB1004FBF69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B298D8E81991FDB0004FBF69 /* PocketMusic */;
+			targetProxy = B298D8FC1991FDB1004FBF69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B298D8F21991FDB0004FBF69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B298D8F31991FDB0004FBF69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B298D9031991FDB1004FBF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B298D9041991FDB1004FBF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B298D9061991FDB1004FBF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PocketMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B298D9071991FDB1004FBF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PocketMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B298D9091991FDB1004FBF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PocketMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketMusic.app/PocketMusic";
+			};
+			name = Debug;
+		};
+		B298D90A1991FDB1004FBF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PocketMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketMusic.app/PocketMusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B298D8E41991FDB0004FBF69 /* Build configuration list for PBXProject "PocketMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B298D9031991FDB1004FBF69 /* Debug */,
+				B298D9041991FDB1004FBF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B298D9051991FDB1004FBF69 /* Build configuration list for PBXNativeTarget "PocketMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B298D9061991FDB1004FBF69 /* Debug */,
+				B298D9071991FDB1004FBF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B298D9081991FDB1004FBF69 /* Build configuration list for PBXNativeTarget "PocketMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B298D9091991FDB1004FBF69 /* Debug */,
+				B298D90A1991FDB1004FBF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B298D8E11991FDB0004FBF69 /* Project object */;
+}
