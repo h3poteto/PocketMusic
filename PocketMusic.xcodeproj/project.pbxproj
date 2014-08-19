@@ -15,6 +15,7 @@
 		B298D90C19920446004FBF69 /* ChannelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298D90B19920446004FBF69 /* ChannelTableViewController.swift */; };
 		B298D90E199204A7004FBF69 /* PlaylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298D90D199204A7004FBF69 /* PlaylistTableViewController.swift */; };
 		B298D910199204D5004FBF69 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298D90F199204D5004FBF69 /* SettingViewController.swift */; };
+		E999762219A316B90013EA77 /* MoviePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E999762119A316B90013EA77 /* MoviePlayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		B298D90B19920446004FBF69 /* ChannelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelTableViewController.swift; sourceTree = "<group>"; };
 		B298D90D199204A7004FBF69 /* PlaylistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewController.swift; sourceTree = "<group>"; };
 		B298D90F199204D5004FBF69 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E999762119A316B90013EA77 /* MoviePlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviePlayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				B298D8F01991FDB0004FBF69 /* ViewController.swift */,
 				B298D90B19920446004FBF69 /* ChannelTableViewController.swift */,
 				B298D90D199204A7004FBF69 /* PlaylistTableViewController.swift */,
+				E999762119A316B90013EA77 /* MoviePlayViewController.swift */,
 				B298D90F199204D5004FBF69 /* SettingViewController.swift */,
 				B298D8F21991FDB0004FBF69 /* Main.storyboard */,
 				B298D8F51991FDB0004FBF69 /* Images.xcassets */,
@@ -220,6 +223,7 @@
 				B298D910199204D5004FBF69 /* SettingViewController.swift in Sources */,
 				B298D8F11991FDB0004FBF69 /* ViewController.swift in Sources */,
 				B298D8EF1991FDB0004FBF69 /* AppDelegate.swift in Sources */,
+				E999762219A316B90013EA77 /* MoviePlayViewController.swift in Sources */,
 				B298D90C19920446004FBF69 /* ChannelTableViewController.swift in Sources */,
 				B298D90E199204A7004FBF69 /* PlaylistTableViewController.swift in Sources */,
 			);
@@ -407,6 +411,7 @@
 				B298D9071991FDB1004FBF69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B298D9081991FDB1004FBF69 /* Build configuration list for PBXNativeTarget "PocketMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				B298D90A1991FDB1004FBF69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
